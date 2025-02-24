@@ -1,0 +1,35 @@
+{
+  "meals": [
+    {"breakfast": "Aloo Paratha with curd and pickle", "dinner": "Chole Bhature"},
+    {"breakfast": "Paneer Paratha with yogurt", "dinner": "Dal Tadka with Jeera Rice and Raita"},
+    {"breakfast": "Poha with peanuts and sev", "dinner": "Palak Paneer with Makki di Roti"},
+    {"breakfast": "Aloo Puri with tamarind chutney", "dinner": "Baingan Bharta with Tandoori Roti"},
+    {"breakfast": "Paratha with Dahi (yogurt) and a dollop of butter", "dinner": "Shahi Paneer with Butter Naan"},
+    {"breakfast": "Moong Dal Chilla (savory pancakes) with chutney", "dinner": "Rajma with Rice"},
+    {"breakfast": "Dhokla with green chutney", "dinner": "Gobi Masala with Chapati"},
+    {"breakfast": "Masala Oats", "dinner": "Kadai Paneer with Tandoori Roti"},
+    {"breakfast": "Stuffed Paneer Paratha with curd", "dinner": "Dum Aloo with Jeera Rice"},
+    {"breakfast": "Sabudana Khichdi with peanuts and yogurt", "dinner": "Methi Thepla with Gujarati Kadhi"},
+    {"breakfast": "Upma with coconut chutney", "dinner": "Aloo Gobi with Tandoori Roti"},
+    {"breakfast": "Poha with lemon and coriander", "dinner": "Gobi Musallam with Rumali Roti"},
+    {"breakfast": "Aloo Tikki with tamarind chutney", "dinner": "Vegetable Kofta Curry with Rice"},
+    {"breakfast": "Bread Pakora with chutney", "dinner": "Pindi Chole with Bhature"},
+    {"breakfast": "Paratha with Saag (Mustard greens)", "dinner": "Palak Chaat with Naan"},
+    {"breakfast": "Pesarattu (Green gram pancakes) with ginger chutney", "dinner": "Vegetable Biryani with Raita"},
+    {"breakfast": "Gobi Paratha with curd", "dinner": "Tandoori Cauliflower with Rice"},
+    {"breakfast": "Aloo Sabzi with Chapati", "dinner": "Dal Makhani with Butter Naan"},
+    {"breakfast": "Sattu Paratha with pickle", "dinner": "Baingan Masala with Rice"},
+    {"breakfast": "Masala Idli with coconut chutney", "dinner": "Paneer Butter Masala with Naan"},
+    {"breakfast": "Dahi Puri", "dinner": "Vegetable Biryani with Papad and Raita"},
+    {"breakfast": "Stuffed Paratha with Butter and Curd", "dinner": "Malai Kofta with Naan"},
+    {"breakfast": "Puffed Rice (Murmura) Chaat with veggies and chutney", "dinner": "Kadhi Pakora with Rice"},
+    {"breakfast": "Aloo Methi Paratha with raita", "dinner": "Rajma with Rice"},
+    {"breakfast": "Poached Eggs with Buttered Toast and Chutney (or scrambled paneer)", "dinner": "Lauki Kofta with Paratha"},
+    {"breakfast": "Paneer Bhurji with toast", "dinner": "Tandoori Paneer with Salad"},
+    {"breakfast": "Khakra with pickles and yogurt", "dinner": "Daal Baati Churma"},
+    {"breakfast": "Veg Sandwich with green chutney", "dinner": "Soya Chap with Naan"},
+    {"breakfast": "Thepla with sweet chutney", "dinner": "Butter Paneer with Jeera Rice"},
+    {"breakfast": "Methi Paratha with curd", "dinner": "Aloo Gobi with Chapati"}
+  ]
+}
+
