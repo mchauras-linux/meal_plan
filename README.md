@@ -1,2 +1,2 @@
-# meal_plan
+# Meal Plan Generator
 Meal Plan generator for a month
