@@ -119,7 +119,9 @@ def generate_meal_plan(year, month):
                 '''
                 # Move to the next day
                 current_day += timedelta(days=1)
-                meal_index = (meal_index + 1) % len(meals)  # Rotate meals
+                # Rotate through meals, reset to the first one if we exceed the list
+                meal_index = (meal_index + 1) % len(meals) if meal_index + 1 < len(meals) else 0
+                # meal_index = (meal_index + 1) % len(meals)  # Rotate meals
             else:
                 # Empty cells after the last day of the month
                 html_content += '<td></td>'
@@ -140,8 +142,15 @@ def generate_meal_plan(year, month):
     print(f"Meal plan for {calendar.month_name[month]} {year} has been saved as 'meal_plan_{year}_{month}.html'.")
 
 # Prompt for user input to select the year and month
-year = int(input("Enter the year (e.g., 2025): "))
-month = int(input("Enter the month number (1-12): "))
+current_year = datetime.now().year
+current_month = datetime.now().month
+
+year_input = input(f"Enter the year (default {current_year}): ")
+month_input = input(f"Enter the month number (1-12, default {current_month}): ")
+
+# Use default values if input is empty
+year = int(year_input) if year_input else current_year
+month = int(month_input) if month_input else current_month
 
 # Call the generate_meal_plan function with the user input
 generate_meal_plan(year, month)
